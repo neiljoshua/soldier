@@ -28,7 +28,7 @@
 			}
 		}
 
-		var $url = "dataHandler.php";
+		var $url = "datahandler.php";
 
 		$.ajax({
 			type: 'GET',

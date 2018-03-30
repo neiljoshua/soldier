@@ -1,0 +1,61 @@
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 30px 0;
+	font-size: 40px;
+	color: $orange;
+}
+
+%cell {
+	display: table-cell;
+	padding: 10px 0;
+	width: 10%;
+	max-width: 10%;
+}
+
+.header {
+	display: table;
+	width: 100%;
+	text-align: center;
+
+	div {
+		@extend %cell;
+		border: 1px solid $gray;
+		background-color: $orange;
+		color: white;
+	}
+}
+
+.apartments {
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+	li {
+		display: table;
+		width: 100%;
+	}
+
+	.row {
+		display: table-row;
+		width: 100%;
+		padding: 0;
+	}
+
+	.cell {
+		@extend %cell;
+		border: 1px solid $gray;
+		border-top: 0;
+		font-size: 20px;
+
+		a {
+			color: $orange;
+			text-decoration: none;
+		}
+	}
+}

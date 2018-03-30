@@ -1,0 +1,10 @@
+.DS_Store
+html/
+
+# Node Package Manager
+node_modules/
+npm_log
+npm-debug.log
+
+#Sass files
+.sass-cache

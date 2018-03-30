@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, ../sass/reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 45, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 50, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 55, ../sass/reset.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="email"],
+input[type="text"],
+button {
+  border: 0;
+  background: none;
+  outline: 0;
+}
+
+/* line 66, ../sass/reset.scss */
+input[type="button"],
+input[type="submit"],
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/table.scss */
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/table.scss */
+h1 {
+  margin: 30px 0;
+  font-size: 40px;
+  color: #DF3E32;
+}
+
+/* line 12, ../sass/table.scss */
+.header div, .apartments .cell {
+  display: table-cell;
+  padding: 10px 0;
+  width: 10%;
+  max-width: 10%;
+}
+
+/* line 19, ../sass/table.scss */
+.header {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+/* line 24, ../sass/table.scss */
+.header div {
+  border: 1px solid #333333;
+  background-color: #DF3E32;
+  color: white;
+}
+
+/* line 32, ../sass/table.scss */
+.apartments {
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 39, ../sass/table.scss */
+.apartments li {
+  display: table;
+  width: 100%;
+}
+/* line 44, ../sass/table.scss */
+.apartments .row {
+  display: table-row;
+  width: 100%;
+  padding: 0;
+}
+/* line 50, ../sass/table.scss */
+.apartments .cell {
+  border: 1px solid #333333;
+  border-top: 0;
+  font-size: 20px;
+}
+/* line 56, ../sass/table.scss */
+.apartments .cell a {
+  color: #DF3E32;
+  text-decoration: none;
+}

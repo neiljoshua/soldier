@@ -42,7 +42,7 @@
 		return $content;
 	}
 
-	$cache_file = 'cache/apartmentdata.txt';
+	$cache_file = 'cache/apartment_data.txt';
 	$data_url = 'http://rentcafe.com/rentcafeapi.aspx?requestType=apartmentavailability&APIToken=NDY5OTI%3d-XDY6KCjhwhg%3d&propertyCode=p0155985';
 
 	$apartments_data = get_content($cache_file, $data_url, 5, 'extract_data',array('file'=>$cache_file));

@@ -10,7 +10,7 @@
 				$number = 'Studio';
 				return $number;
 			} else if($n > 0){
-				$number = n.toString()
+				$number = $n.toString()
 				return $number
 			}
 		}

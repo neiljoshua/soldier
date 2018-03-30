@@ -52,7 +52,7 @@
 					$range = '$' + $min_range + ' - ' + $max_range;
 
 
-		      $(".apartments").append('<li><ul class="row">'+'<li class="cell">' +$apt_name+ '</li> ' + '<li class="cell">'+$beds+'</li> ' + '<li class="cell">'+$baths+'</li>' + '<li class="cell">'+$floor_plan+'</li>' +'<li class="cell">'+$range+'</li> ' + '<li class="cell"><a href='+$apt_link+'>Apply</a></li>'+'</ul></li>');
+		      $(".apartments").append('<li><ul class="row">'+'<li class="cell">' +$apt_name+ '</li> ' + '<li class="cell">'+$beds+'</li> ' + '<li class="cell">'+$baths+'</li>' + '<li class="cell">'+$floor_plan+'</li>' +'<li class="cell">'+$range+'</li> ' + '<li class="cell"><a href='+$apt_link+' target="_blank">Apply</a></li>'+'</ul></li>');
 	    	}
 	    },
 

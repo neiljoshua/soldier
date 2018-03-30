@@ -86,39 +86,74 @@ button {
 
 /* line 1, ../sass/table.scss */
 .wrapper {
-  max-width: 80%;
-  margin: 0 auto;
+  width: -webkit-calc((100%) - 20px);
+  width: -moz-calc((100%) - 20px);
+  width: calc((100%) - 20px);
+  padding: 0 10px;
+}
+@media (min-width: 601px) {
+  /* line 1, ../sass/table.scss */
+  .wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0;
+  }
 }
 
-/* line 6, ../sass/table.scss */
+/* line 11, ../sass/table.scss */
 h1 {
   margin: 30px 0;
-  font-size: 40px;
+  font-size: 20px;
   color: #DF3E32;
 }
-
-/* line 12, ../sass/table.scss */
-.header div, .apartments .cell {
-  display: table-cell;
-  padding: 10px 0;
-  width: 10%;
-  max-width: 10%;
+@media (min-width: 601px) {
+  /* line 11, ../sass/table.scss */
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 11, ../sass/table.scss */
+  h1 {
+    font-size: 40px;
+  }
 }
 
-/* line 19, ../sass/table.scss */
+/* line 23, ../sass/table.scss */
+.header div, .apartments .cell {
+  display: table-cell;
+  padding: 10px 2px;
+  width: 17%;
+  max-width: 10%;
+  font-size: 10px;
+}
+@media (min-width: 601px) {
+  /* line 23, ../sass/table.scss */
+  .header div, .apartments .cell {
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 23, ../sass/table.scss */
+  .header div, .apartments .cell {
+    font-size: 20px;
+  }
+}
+
+/* line 37, ../sass/table.scss */
 .header {
   display: table;
   width: 100%;
   text-align: center;
 }
-/* line 24, ../sass/table.scss */
+/* line 42, ../sass/table.scss */
 .header div {
   border: 1px solid #333333;
   background-color: #DF3E32;
   color: white;
 }
 
-/* line 32, ../sass/table.scss */
+/* line 51, ../sass/table.scss */
 .apartments {
   display: table;
   width: 100%;
@@ -126,24 +161,23 @@ h1 {
   padding: 0;
   text-align: center;
 }
-/* line 39, ../sass/table.scss */
+/* line 58, ../sass/table.scss */
 .apartments li {
   display: table;
   width: 100%;
 }
-/* line 44, ../sass/table.scss */
+/* line 63, ../sass/table.scss */
 .apartments .row {
   display: table-row;
   width: 100%;
   padding: 0;
 }
-/* line 50, ../sass/table.scss */
+/* line 69, ../sass/table.scss */
 .apartments .cell {
   border: 1px solid #333333;
   border-top: 0;
-  font-size: 20px;
 }
-/* line 56, ../sass/table.scss */
+/* line 74, ../sass/table.scss */
 .apartments .cell a {
   color: #DF3E32;
   text-decoration: none;

@@ -1,18 +1,19 @@
 .wrapper {
 	@include calc( width, '(100%) - 20px');
-	padding: 40px 10px;
+	padding: 0 10px;
 	@include media-min-width(mobile) {
+		padding: 0;
 		margin: 30px auto;
 		max-width: 80%;
-		padding: 0;
 	}
 }
 
 h1 {
-	margin: 40px 0;
+	margin: 20px 0;
 	font-size: 20px;
 	color: $orange;
 	@include media-min-width(mobile) {
+		margin: 40px 0;
 		font-size: 30px;
 	}
 	@include media-min-width(tablet) {
